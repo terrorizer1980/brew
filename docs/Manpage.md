@@ -749,6 +749,8 @@ If *`formula`* is provided, display the file or directory used to cache *`formul
   Show the cache file used when building from source.
 * `--force-bottle`:
   Show the cache file used when pouring a bottle.
+* `--bottle-tag`:
+  Show the cache file used when pouring a bottle for the given tag.
 * `--HEAD`:
   Show the cache file used when building from HEAD.
 * `--formula`:
@@ -1194,7 +1196,7 @@ Find pull requests that can be automatically merged using `brew pr-publish`.
 * `--with-label`:
   Pull requests must have this label.
 * `--without-labels`:
-  Pull requests must not have these labels (default: `do not merge`, `new formula`, `automerge-skip`, `linux-only`, `linux to homebrew-core`).
+  Pull requests must not have these labels (default: `do not merge`, `new formula`, `automerge-skip`, `linux to homebrew-core`).
 * `--without-approval`:
   Pull requests do not require approval to be merged.
 * `--publish`:
